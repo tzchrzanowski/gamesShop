@@ -1,0 +1,12 @@
+[
+    {
+        "ownedGames":
+            [
+                "gameId_2"
+            ],
+        "gamesInCart":
+            [
+                "gameId_3", "gameId_5"
+            ]
+    }
+] 

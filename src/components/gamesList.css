@@ -1,0 +1,149 @@
+.gameCaptions{
+    position:relative;
+}
+.gameTitle{
+	width:150px;
+    position:absolute;
+    left:10px;
+    font-size:13px;
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color: #3a3a3a;
+    font-family: 'PT Sans', sans-serif;
+	color: #262626;
+}
+.gameTitleOwned{
+	width:150px;
+    position:absolute;
+    left:10px;
+    font-size:13px;
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color: #3a3a3a;
+    font-family: 'PT Sans', sans-serif;
+	color: rgba(0,0,0, .01);
+}
+
+.discountBox{
+    position:relative;
+    text-align:center;
+    font-size:12px;
+    color:white;
+	width: 44px;
+	height: 24px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background-color: #00905e;
+}
+
+.discountAmount{
+    position:absolute;
+    margin-left:-14px;
+    padding-top:1px;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 13px;
+	color: #f2f2f2;
+}
+.priceBox{
+	display: flex;
+	width: 48px;
+	height: 22px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background-color: rgba(0,0,0,0);
+	-webkit-box-shadow: 0 0 1px rgba(0,0,0,.45), 0 1px 3px rgba(0,0,0,.25);
+	-moz-box-shadow: 0 0 1px rgba(0,0,0,.45), 0 1px 3px rgba(0,0,0,.25);
+	box-shadow: 0 0 1px rgba(0,0,0,.45), 0 1px 3px rgba(0,0,0,.25);
+	border: solid 1px rgba(0,0,0,.25);
+}
+.priceBox:active {
+	transform: translate(1px, 1px);		
+}
+
+.inCartBox{
+	display: flex;
+	width: 48px;
+	height: 22px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background-color: rgba(0,0,0,0);
+	-webkit-box-shadow: 0 0 1px rgba(0,0,0,.45), 0 1px 3px rgba(0,0,0,.25);
+	-moz-box-shadow: 0 0 1px rgba(0,0,0,.45), 0 1px 3px rgba(0,0,0,.25);
+	box-shadow: 0 0 1px rgba(0,0,0,.45), 0 1px 3px rgba(0,0,0,.25);
+	border: solid 1px rgba(0,0,0,.25);
+}
+.inCartCaption{
+	margin-left:2px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    width:40px;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 11px;
+	color: #404040;
+}
+.priceValue{
+	margin-left:2px;	
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+    width:40px;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 13px;
+	color: #404040;
+}
+.ownedCaptionBox{
+    position:relative;
+    text-align:center;
+	width: 48px;
+	height: 22px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background-color: rgba(0,0,0,0);
+	-webkit-box-shadow: 0 0 1px rgba(0,0,0,.45), 0 1px 3px rgba(0,0,0,.05);
+	-moz-box-shadow: 0 0 1px rgba(0,0,0,.45), 0 1px 3px rgba(0,0,0,.05);
+	box-shadow: 0 0 1px rgba(0,0,0,.45), 0 1px 3px rgba(0,0,0,.05);
+	border: solid 1px rgba(0,0,0,.05);
+}
+.ownedCaption{
+	position:absolute;
+    width:40px;
+    margin-left:-20px;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 13px;
+	color: rgba(0,0,0, .25);
+}
+
+.gamesDiv{
+	display: flex;
+	justify-content: center;
+}
+
+.wrapperList {
+	width: auto;
+	max-width: 1300px;
+}
+
+.img{
+    width: inherit;
+}
+.box{
+	display: flex;	
+	justify-content: space-between;	
+	flex-wrap: wrap;
+}
+
+.box>* {
+	margin-left:10px;
+	margin-right:10px;
+	height:187px;
+	margin-bottom:20px;
+	text-align: left;
+	background-color: #dedede;
+	-webkit-box-shadow: 0 1px 5px rgba(0,0,0,.15);
+	-moz-box-shadow: 0 1px 5px rgba(0,0,0,.15);
+	box-shadow: 0 1px 5px rgba(0,0,0,.15);
+}

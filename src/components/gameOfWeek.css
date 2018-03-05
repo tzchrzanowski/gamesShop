@@ -1,0 +1,57 @@
+.title{
+	padding-bottom:10px;
+	display:flex;
+	justify-content: left;	
+	text-align: left;
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color: #3a3a3a;
+    font-family: 'PT Sans', sans-serif;
+	font-size: 15px;
+	color: #262626;
+}
+.title span{
+	width: 140px;
+}
+.secretButton{
+	z-index:-1;
+    color:white;
+    font-size:12px;
+    position:absolute;
+	width: 389px;
+	height: 40px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background-color: #000;
+	-webkit-box-shadow: 0 0 0 1px rgba(0,117,77,.8), 0 1px 3px rgba(0,0,0,.3);
+	-moz-box-shadow: 0 0 0 1px rgba(0,117,77,.8), 0 1px 3px rgba(0,0,0,.3);
+	box-shadow: 0 0 0 1px rgba(0,117,77,.8), 0 1px 3px rgba(0,0,0,.3);
+	background-image: -webkit-linear-gradient(bottom, #00905e, #00c78c);
+	background-image: -moz-linear-gradient(bottom, #00905e, #00c78c);
+	background-image: -o-linear-gradient(bottom, #00905e, #00c78c);
+	background-image: -ms-linear-gradient(bottom, #00905e, #00c78c);
+	background-image: linear-gradient(to top, #00905e, #00c78c);
+}
+
+.parentBox{
+	display: flex;
+	justify-content: center;
+	padding-bottom:15px;
+	padding-top:25px;
+}
+.wrapperBanner{
+	width: auto;
+	max-width: 1300px;
+}
+.centered{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: auto;
+}
+
+.banner{
+	-webkit-box-shadow: 0 1px 5px rgba(0,0,0,.3);
+	-moz-box-shadow: 0 1px 5px rgba(0,0,0,.3);
+	box-shadow: 0 1px 5px rgba(0,0,0,.3);
+}

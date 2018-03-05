@@ -1,0 +1,51 @@
+.nav_Box{
+	display: flex;
+	justify-content: center;
+	z-index: 4;
+	height: 56px;
+	background-color: #dedede;
+	-webkit-box-shadow: 0 0 15px rgba(0,0,0,.15), 0 1px 3px rgba(0,0,0,.15);
+	-moz-box-shadow: 0 0 15px rgba(0,0,0,.15), 0 1px 3px rgba(0,0,0,.15);
+	box-shadow: 0 0 15px rgba(0,0,0,.15), 0 1px 3px rgba(0,0,0,.15);
+	background-image: -webkit-linear-gradient(bottom, rgba(255,255,255,0) 10%, rgba(255,255,255,.49) 99%, rgba(255,255,255,.5));
+	background-image: -moz-linear-gradient(bottom, rgba(255,255,255,0) 10%, rgba(255,255,255,.49) 99%, rgba(255,255,255,.5));
+	background-image: -o-linear-gradient(bottom, rgba(255,255,255,0) 10%, rgba(255,255,255,.49) 99%, rgba(255,255,255,.5));
+	background-image: -ms-linear-gradient(bottom, rgba(255,255,255,0) 10%, rgba(255,255,255,.49) 99%, rgba(255,255,255,.5));
+	background-image: linear-gradient(to top, rgba(255,255,255,0) 10%, rgba(255,255,255,.49) 99%, rgba(255,255,255,.5));
+}
+
+.navWrapper{
+	z-index: 4;
+	width: auto;
+	width: 1060px;
+	display: flex;
+}
+
+.logoGog{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.cartButton{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color:black;
+	font-size:12px;
+	margin-left: auto;
+	width:56px;
+	height:56px;
+	border-left: 1px solid #bbbbbb;
+	border-right: 1px solid #bbbbbb;	
+}
+
+.cartOn{
+	background-color: #f7f7f7;
+}
+
+.imgCart{
+	max-width:30px;
+}
+.cartActive{
+	background-color: #f7f7f7;
+}

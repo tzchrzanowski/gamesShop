@@ -1,0 +1,47 @@
+[
+    {
+        "id":"gameId_1",
+        "title":"ODDWORLD: STRANGER'S WRATH",
+        "price":9.99,
+        "currency":"$",
+        "discount":true,
+        "discountAmount":50,
+        "img":"../images/oddworld.jpg"
+    },
+    {
+        "id":"gameId_2",
+        "title":"CHAOS ON DEPONIA",
+        "price":9.99,
+        "currency":"$",
+        "discount":false,
+        "discountAmount":0,
+        "img":"../images/deponia.jpg"
+    },
+    {
+        "id":"gameId_3",
+        "title":"THE SETTLERS 2: GOLD EDITION",
+        "price":5.99,
+        "currency":"$",
+        "discount":false,
+        "discountAmount":0,
+        "img":"../images/settlers.jpg"
+    },
+    {
+        "id":"gameId_4",
+        "title":"NEVERWINTER NIGHTS",
+        "price":4.99,
+        "currency":"$",
+        "discount":true,
+        "discountAmount":50,
+        "img":"../images/neverwinter.jpg"
+    },
+    {
+        "id":"gameId_5",
+        "title":"ASSASSIN'S CREED: DIRECTOR'S CUT",
+        "price":9.99,
+        "currency":"$",
+        "discount":false,
+        "discountAmount":0,
+        "img":"../images/assassinsCreed.jpg"
+    }
+]
